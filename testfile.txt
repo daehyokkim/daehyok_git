@@ -1,1 +1,23 @@
 hello world
+hello world
+
+git을 사용 순서
+- git config --global user.name,email  //입력
+- cd file //연결한 파일로 이동
+- git clone github_adderess git과 연동
+
+파일 등록
+-등록하는 file 생성
+-git add makefile.* //파일 등록
+-git commit -m "add text file [makefile.*]" //파일업로드 시점 스냅샷(복구 목적)
+-git push //github에 실제 적용
+
+//open source 공개된 소스코드 대표(bootstrap)
+README.md 파일// 소스코드 설명서
+contribution //오픈소스 기여 행위, 기능추가,오타수정,보안
+Commiter // 실제오픈소스 권한을 가진자
+라이센스
+MIT License, Apache 공유의무 x
+GPL 무조건 공개 의무 0
+beerware :: 술한잔 크~ 
+
