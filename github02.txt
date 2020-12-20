@@ -1,0 +1,12 @@
+Commit하여 적용하는 순간 저장 //파일 변경 이력
+3가지 구성
+Working Directory: 작업할 파일이 있는 디렉토리
+Staging Area: 커밋을 수행할 파일들일 올라가는 영역
+Git Directory: .git폴더 의미// 프로젝트의 메타 데이터와 정보가 저장되는 디렉토리
+				    
+Woring -(git add)> Staging -(git commit)>Local(내 pc) -(git push)> Remote(github 반영)
+git pull	<-------(git merge)--------------	<(git fetch)-(다운로드 받기)
+
+
+저장소(Repo)
+-실제 소스코드가 담겨있으면서 메타데이터 존재,해시값 관리
