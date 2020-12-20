@@ -8,5 +8,11 @@ Woring -(git add)> Staging -(git commit)>Local(내 pc) -(git push)> Remote(githu
 git pull	<-------(git merge)--------------	<(git fetch)-(다운로드 받기)
 
 
+git status //Saging에 올려진 add 문서확인
+git checkout 파일명 // Saging에 올려진 add 문서제거
+git commit --amend //commit문 수정
+git log //명령한 commit문 정보 열람가능 (해시값등)
+git reset --hard 해시값 // 해당 해시값 이전의 기록을 모두제거
+--soft
 저장소(Repo)
 -실제 소스코드가 담겨있으면서 메타데이터 존재,해시값 관리
