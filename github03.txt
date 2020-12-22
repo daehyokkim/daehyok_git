@@ -13,3 +13,13 @@ master 브렌치 -- 배포 가능 버전,안정화된 버전, 주버전
 M -> p(D)of(B) -(marge 합치기)> -> 완료
 -통합 : 배포가능 수준 (마스터)
 -토픽 : 마스터를 제외한 브렌치들
+ex1)
+- git branch develop //develop생성
+- git branch //브렌치 확인
+- git checkout 브렌치명 // 포인트 변경
+- develop로 수행시 commit까지 완료후 
+- git checkout master //마스터 브렌치로 변경
+- git merge develop //develop에서 추가된 정보를 master 블렌치에도 추가
+- git psuh //내 github에 저장 완료
+- git branch -d develop //develop 브렌치 삭제
+
