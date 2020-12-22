@@ -24,4 +24,6 @@ ex1)
 - git branch -d develop //develop 브렌치 삭제
 
 브렌치 충돌 방지
+-develop 브렌치와 master 브렌치가 서로 다른 commit을 했을때 수정한 파일을 들어가
+ 둘중 하나의 코드를 선택 후 다시 commit한다.
 
