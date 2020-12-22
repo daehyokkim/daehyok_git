@@ -1,0 +1,6 @@
+원격지 저장소 관리법(Remote Repository)
+-git remote //혀젠 어떤 저장소가 있는지 확인
+-git remote show 저장소명 --> 특정 저장소 정보확인
+-git remote add 저장소명 github주소 //저장소 생성
+-git remote -v //모든 저장소 확인
+-git remote rem
