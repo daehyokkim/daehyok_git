@@ -3,3 +3,6 @@ def add(a,b):
 
 def print(name):
       print(name+"hello!!")
+
+def mul(a,b):
+      return a*b
