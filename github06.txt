@@ -1,0 +1,8 @@
+.git을 제외한 문서 압축
+archive
+
+git archive --format=zip 브랜치명 -o(output) zipfile_name.zip(상대경로도 가능)
+
+특정 커밋 수정및 삭제
+Rebase
+
