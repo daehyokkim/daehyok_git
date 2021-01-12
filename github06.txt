@@ -1,8 +1,12 @@
 .git을 제외한 문서 압축
 archive
-
 git archive --format=zip 브랜치명 -o(output) zipfile_name.zip(상대경로도 가능)
 
 특정 커밋 수정및 삭제
-Rebase
+git Rebase
+//git rebase -i HEAD~cnt
+  - reword // message 수정
+  - drop // 선택한 log 제거
 
+config
+git 설치 후 계정 설치를 가장 먼저함
