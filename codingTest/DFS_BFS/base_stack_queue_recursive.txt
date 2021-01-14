@@ -1,0 +1,17 @@
+2021/01/14
+ ***Stack,Queue,재귀함수 개념 다시한번 정리해보기***
+Stack
+ 구조는 FILO(선입후출)구조로 이루어져 있습니다.
+ 리스트로 생성합니다.
+ex) stack = []
+Queue
+ 구조는 FIFO(선입선출)구조로 이루어져 있습니다. 
+ ※ 큐를 사용할 때는 좀더 효율적인 구조인 
+    from collections import deque를 사용하면 좋습니다.
+ex) queue = deque() 로 생성
+
+Python에서는 따로 push,pop 함수를 구현하지 않고 push == append(), pop= pop()을 사용합니다.
+단 Queue에서 pop == popleft()를 사용합니다.
+
+재귀함수
+자기 자신을 호출하는 함수
