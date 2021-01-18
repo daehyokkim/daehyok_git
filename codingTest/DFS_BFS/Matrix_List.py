@@ -10,7 +10,7 @@ graph_matrix = [ [0,7,5],
 
 print(graph_matrix)
 
-#이접 리스트 구현
+#인접 리스트 구현
 graph = [[] for _ in range(3)]
 graph[0].append((1,7))
 graph[0].append((2,5))
