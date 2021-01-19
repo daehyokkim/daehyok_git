@@ -16,3 +16,10 @@ git reset --hard 해시값 // 해당 해시값 이전의 기록을 모두제거
 --soft
 저장소(Repo)
 -실제 소스코드가 담겨있으면서 메타데이터 존재,해시값 관리
+
+git commit 복구 방법
+git reflog 로 복구하고싶은 commit_id를 확인한다.
+git reset --hard commit_id 삭제된 commit명령어 복구
+
+git commit 취소 하기(삭제 X)
+git reset HEAD~마지막 commit 명렬어 기준 취소하고 싶은명령 개수 
