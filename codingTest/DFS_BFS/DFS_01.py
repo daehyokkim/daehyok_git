@@ -43,6 +43,9 @@ result = 0
         if dfs(i,j)==True:
             result +=1
     에서 n의 값이 3이 되어 출력 됨
+     -2021.01.19 해결-
+        --> 첫번째 for 문이 끝날때 n = 3이란 값을 가지고 끝이 나기때문에 다음 for문에서
+        range(n)값은 0~2까지 만 반복하기 때문
     
 '''
 for i in range(n):
