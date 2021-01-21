@@ -1,0 +1,27 @@
+2021.01.21
+spring과 git 연결하기
+
+spring F/W
+ 우측상단에 Open Perspective 아이콘 클릭 -> git선택 -> Clone a Git repository 클릭 -> 연동할 git주소 입력
+ -> 경로설정
+
+프로젝트 업로드
+ 원하는 프로젝트 우클릭 -> [Team] - [Share Project] 클릭 -> Local Repository 경로를 선택
+ ※?아이콘 제거
+  프로젝트 우클릭 -> [Team] - [Add to Index] 클릭  : commit 준비가 되었다고 등록하는 것 
+ git Staging창 생성
+  프로젝트 우클릭 ->  [Team] - [Commit] 클릭
+ commit msg를 작성 후 commit and push 클릭 (commit 완료 시 프로젝트 아이콘이 변경 됨)
+ 업로드 확인 방법
+  Git Repositories에서 Working Tree를 확인한다.
+
+git에서 프로젝트 가져오기
+ Git Repositories로 이동 하여 Working Tree안에 업로드 했던 프로젝트 선택
+ 마우스 우클릭 하여 import Projects 메뉴 클릭 (Import Projects from File System or Archive 창 생성)
+ 생성된 창에서 가져오려는 프로젝트가 체크 되어있는지 확인하고 finish
+ 
+다른사람의 git에서 소스 코드 가져오기
+ [File] -> [import] -> git -> Projects from Git 클릭 -> clone URL 클릭 next
+ 불러오고 싶은 github 주소 입력하고 자신의 git ID&PW입력
+ Import existing Eclipse projects 를 선택하고 Next를 클릭
+ 가져올 프로젝트를 선택하고 finish
